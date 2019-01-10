@@ -9,3 +9,4 @@ menuconfig LIBNEWLIBC
 	select HAVE_LIBC
 	select LIBNEWLIBM if LIBNEWLIBC
 	select LIBUCALLOC
+	select LIBVFSCORE
